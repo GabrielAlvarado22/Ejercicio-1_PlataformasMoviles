@@ -17,14 +17,7 @@ class Persona{
         altura = 0.0
     }
 
-    constructor(){
-        nombre = "Gabriel"
-        edad = 23
-        cedula = "207890236"
-        sexo = 'H'
-        peso = 65.0
-        altura = 1.74
-    }
+    constructor()
 
    constructor(nombre_p: String, edad_p : Int, cedula_p: String, sexo_p: Char, peso_p: Double, altura_p: Double){
        this.nombre = nombre_p
