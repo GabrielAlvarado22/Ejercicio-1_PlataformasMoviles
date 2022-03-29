@@ -18,7 +18,7 @@ class controladorPersona {
         if(pesoIdeal<18.5){
             return -1
         }
-        else if(pesoIdeal==18.5){
+        else if(pesoIdeal>=18.5 && pesoIdeal<=29.9){
             return 0
         }
         else{

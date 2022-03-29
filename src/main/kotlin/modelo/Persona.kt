@@ -28,10 +28,11 @@ class Persona{
        this.altura = altura_p
     }
 
-    constructor(nombre_p: String, edad_p: Int, sexo_p: Char):
-            this(nombre_p, edad_p, "111111111", sexo_p, 80.0, 1.70) {
+    constructor(nombre_p: String, edad_p: Int, sexo_p: Char){
         this.nombre = nombre_p
         this.edad = edad_p
         this.sexo = sexo_p
     }
+
+
 }
